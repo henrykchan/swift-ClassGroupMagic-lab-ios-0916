@@ -12,6 +12,10 @@
 		5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DDD1D9C519B003DCE37 /* Main.storyboard */; };
 		5B077DE11D9C519B003DCE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE01D9C519B003DCE37 /* Assets.xcassets */; };
 		5B077DE41D9C519B003DCE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */; };
+		7255D8161D9C59120064E9DF /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255D8151D9C59120064E9DF /* Tiger.swift */; };
+		7255D8181D9C5BF20064E9DF /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255D8171D9C5BF20064E9DF /* Coordinate.swift */; };
+		7255D81A1D9C62760064E9DF /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255D8191D9C62760064E9DF /* PizzaDeliveryService.swift */; };
+		7255D81C1D9CA9DE0064E9DF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255D81B1D9CA9DE0064E9DF /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5B077DE01D9C519B003DCE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B077DE31D9C519B003DCE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B077DE51D9C519B003DCE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7255D8151D9C59120064E9DF /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
+		7255D8171D9C5BF20064E9DF /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		7255D8191D9C62760064E9DF /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		7255D81B1D9CA9DE0064E9DF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				5B077DD91D9C519B003DCE37 /* AppDelegate.swift */,
+				7255D8151D9C59120064E9DF /* Tiger.swift */,
+				7255D8171D9C5BF20064E9DF /* Coordinate.swift */,
+				7255D8191D9C62760064E9DF /* PizzaDeliveryService.swift */,
+				7255D81B1D9CA9DE0064E9DF /* Person.swift */,
 				5B077DDB1D9C519B003DCE37 /* ViewController.swift */,
 				5B077DDD1D9C519B003DCE37 /* Main.storyboard */,
 				5B077DE01D9C519B003DCE37 /* Assets.xcassets */,
@@ -145,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7255D81C1D9CA9DE0064E9DF /* Person.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
+				7255D8161D9C59120064E9DF /* Tiger.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,
+				7255D81A1D9C62760064E9DF /* PizzaDeliveryService.swift in Sources */,
+				7255D8181D9C5BF20064E9DF /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
